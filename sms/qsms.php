@@ -9,7 +9,7 @@ function sendMessage($to,$message){
     $message = urlencode($message);
     $sender= urlencode("TrailApp");
     $mobile = $to;
-    $url = 'http://www.multitexter.com/tools/geturl/Sms.php?username=nusktecsoft@gmail.com&password=NUSKTECsoft&sender='.$sender.'&message='.$message .'&flash=0&recipients='. $mobile;
+    $url = 'http://www.multitexter.com/tools/geturl/Sms.php?username=nusktecsoft@gmail.com&password=NUSKT&sender='.$sender.'&message='.$message .'&flash=0&recipients='. $mobile;
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
