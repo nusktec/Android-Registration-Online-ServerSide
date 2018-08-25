@@ -1,0 +1,9 @@
+Error Code And Meaning
+#0211   =   Registering URL faulty or server failed to connect (Error 404)
+#0000   =   Database global error
+
+////////LOGIN ERROR\\\\\\\\\\
+0 - Something went wrong on server (Unable to query db)
+1 - Successful
+2 - User not found on db
+3 - Unable to send sms code
